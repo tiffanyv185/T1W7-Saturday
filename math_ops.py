@@ -6,7 +6,7 @@ def add(*args):
 
 def subtract(*args):
     difference = args[0]
-    for each in args:
+    for each in args[1:]:
         difference = difference - each
     return difference
 
@@ -16,4 +16,8 @@ def multiply(*args):
         multiply *= each
     return multiply
 
-print(add[2, 3, 1, 2])
+def divide(a,b):
+    if b == 0:
+        return "Error!"
+    return a / b
+
