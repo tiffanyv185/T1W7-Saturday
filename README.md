@@ -13,4 +13,10 @@
 # Packages
 * Collection of modules
 * Organnise related modules under one directory
-* Initialise a package using init.py file
+* Initialise a package using __init__.py file
+
+# Practical example
+* Create a package for basic text processing for modules for:
+    * counting words in a string,
+    * Counting characters in a string, 
+    * reversing strings 
